@@ -1,0 +1,50 @@
+<!--mysql 驱动-->
+	<dependencies>
+		<dependency>
+			<groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>8.0.28</version>
+		</dependency>
+
+<!--mybaits 依赖-->
+		<dependency>
+		  <groupId>org.mybatis</groupId>
+		  <artifactId>mybatis</artifactId>
+		  <version>3.5.9</version>
+		</dependency>
+
+<!--junit 单元测试-->
+    
+		<dependency>
+		  <groupId>junit</groupId>
+		  <artifactId>junit</artifactId>
+		  <version>4.13.2</version>
+		  <scope>test</scope>
+		</dependency>
+
+<!--slf4j日志api-->
+    
+		<dependency>
+		  <groupId>org.slf4j</groupId>
+		  <artifactId>slf4j-api</artifactId>
+		  <version>1.7.25</version>
+		</dependency>
+
+<!--logback-classic依赖-->
+    
+		<dependency>
+		  <groupId>ch.qos.logback</groupId>
+		  <artifactId>logback-classic</artifactId>
+		  <version>1.2.3</version>
+		</dependency>
+
+<!--logback-core依赖-->
+    
+		<dependency>
+		  <groupId>ch.qos.logback</groupId>
+		  <artifactId>logback-core</artifactId>
+		  <version>1.2.3</version>
+		</dependency>
+
+
+	</dependencies>
